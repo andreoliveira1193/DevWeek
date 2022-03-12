@@ -18,6 +18,13 @@ public class Regiao {
         this.regiao = regiao;
         this.total_exames = total;
     }
+
+    public Regiao(Long id, String regiao, Integer total) throws Exception {
+       this.id = id;
+       this.regiao = regiao;
+       this.total_exames = total;
+    }
+
     public Regiao(){}
 
     public Long getId() {
